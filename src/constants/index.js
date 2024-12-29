@@ -48,7 +48,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    link: null,
+    link: "https://meicib.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React.js", "Tailwind CSS", "Node.js", "Vite"],
