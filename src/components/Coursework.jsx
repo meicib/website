@@ -2,8 +2,8 @@ import { COURSEWORK } from "../constants";
 
 const Coursework = () => {
     return (
-        <div className="pb-4">
-            <h1 className="mt-5 mb-5 text-start text-4xl font-medium">Coursework</h1>
+        <div className="py-4">
+            <h1 className="mb-5 text-start text-4xl font-medium">Coursework</h1>
             <div>
                 {COURSEWORK.map((semester, index) => (
                     <div key={index} className="mb-8 flex flex-wrap lg:justify-start ">

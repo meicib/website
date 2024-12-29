@@ -44,7 +44,7 @@ const App = () => {
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <div className="grid grid-cols-2 h-screen">
         {/* Left Side */}
-        <div className="sticky top-0 col-span-1 w-full flex flex-col justify-center h-screen px-12">
+        <div className="sticky top-0 col-span-1 w-full flex flex-col justify-center h-screen px-16">
           <Profile />
           <Scrollspy activeSection={activeSection} />
           <div className="flex flex-row items-start justify-start w-full gap-4 text-2xl">
