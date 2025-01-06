@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "Dec 2024 - Present",
     role: "Software Engineer",
     company: "Wyzly",
-    description: "Developed and maintained web applications using JavaScript and React.js. fill rest",
+    description: "Developed and maintained web applications using JavaScript and React.js, ensuring efficient design and functionality.",
     technologies: ["Javascript", "React.js"],
   },
   {
