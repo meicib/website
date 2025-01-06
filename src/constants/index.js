@@ -73,7 +73,7 @@ export const COURSEWORK = [
       },
       {
         course: "CS 198",
-        desc: "Directed Group Studies for Advanced Undergraduates",
+        desc: "Directed Group Studies for Advanced Undergraduates - Full Stack Development",
       },
       {
         course: "CYPLAN 98",
