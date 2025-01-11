@@ -57,7 +57,7 @@ export const PROJECTS = [
 
 export const COURSEWORK = [
   {
-    year: "SPRING 2024",
+    year: "SPRING 2025",
     courses_descs: [
       {
         course: "CS 189", 
