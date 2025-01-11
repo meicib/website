@@ -50,12 +50,37 @@ export const PROJECTS = [
     title: "Portfolio Website",
     link: "https://meicib.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A fully responsive personal portfolio website showcasing projects, skills, coursework, and more information.",
     technologies: ["React.js", "Tailwind CSS", "Node.js", "Vite"],
   },
 ];
 
 export const COURSEWORK = [
+  {
+    year: "SPRING 2024",
+    courses_descs: [
+      {
+        course: "CS 189", 
+        desc: "Introduction to Machine Learning",
+      },
+      {
+        course: "CS 161", 
+        desc: "Computer Security",
+      },
+      {
+        course: "MATH 116", 
+        desc: "Cryptography",
+      },
+      {
+        course: "ECON 148",
+        desc: "Data Science for Economists",
+      },
+      {
+        course: "NEU 65",
+        desc: "Neuroscience, Film, and Philosophy",
+      },
+    ],
+  },
   {
     year: "FALL 2024",
     courses_descs: [
