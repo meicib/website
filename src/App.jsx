@@ -42,9 +42,9 @@ const App = () => {
   return (
     <div className="h-screen overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-300 selection:text-blue-900 justify-center">
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2 h-screen w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 h-screen w-full max-w-screen-2xl">
         {/* Left Container (No scroll) */}
-        <div className="md:sticky md:top-0 col-span-1 w-full flex flex-col justify-center md:h-screen p-8 md:p-0 pb-0 md:px-16 max-w-screen-2xl">
+        <div className="md:sticky md:top-0 col-span-1 w-full flex flex-col justify-center md:h-screen p-8 md:p-0 pb-0 md:px-16">
           <Profile />
           <Scrollspy activeSection={activeSection} />
           <div className="flex flex-row items-start justify-start w-full gap-4 text-2xl">
