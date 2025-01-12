@@ -6,7 +6,7 @@ const Experience = () => {
             <h1 className="mb-5 text-start text-4xl font-medium">Experience</h1>
             <div>
                 {EXPERIENCES.map((experience, index) => (
-                    <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+                    <div key={index} className="mb-8 flex flex-wrap ">
                         <div className="w-full lg:w-1/4">
                             <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
                         </div>
