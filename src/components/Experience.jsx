@@ -1,4 +1,5 @@
 import { EXPERIENCES } from "../constants";
+import { MdNorthEast } from "react-icons/md";
 
 const Experience = () => {
     return (
@@ -22,6 +23,14 @@ const Experience = () => {
                     </div>
                 ))}
             </div>
+            <a 
+                href="/src/constants/mei_cibulka_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-base hover:text-blue-400 transition duration-250 inline-flex items-center gap-1"
+            >
+                View Full Resume <MdNorthEast />
+            </a>
 
         </div>
     );

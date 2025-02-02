@@ -12,8 +12,8 @@ export const EXPERIENCES = [
     year: "Dec 2024 - Present",
     role: "Software Engineer",
     company: "Wyzly",
-    description: "Developed and maintained web applications using JavaScript and React.js, ensuring efficient design and functionality.",
-    technologies: ["Javascript", "React.js"],
+    description: "Experience working at an early-stage startup, developed and maintained high-quality, modern web applications using TypeScript and React. Worked closely and communicated clearly with teammates, ensuring efficient design and functionality.",
+    technologies: ["React.js", "TypeScript", "MongoDB", "Tailwind CSS"],
   },
   {
     year: "Aug 2023 - Present",
@@ -29,7 +29,7 @@ export const PROJECTS = [
     title: "Jellyfish Personality Quiz",
     link: "https://meicib.github.io/jelly-quiz/",
     description:
-      "A personality quiz game made with naive HTML/CSS/JS.",
+      "A personality quiz game made with HTML/CSS/JS.",
     technologies: ["HTML", "CSS", "JS"],
   },
   {
@@ -61,7 +61,7 @@ export const COURSEWORK = [
     courses_descs: [
       {
         course: "CS 189", 
-        desc: "Introduction to Machine Learning",
+        desc: "Machine Learning",
       },
       {
         course: "CS 161", 
@@ -75,10 +75,6 @@ export const COURSEWORK = [
         course: "ECON 148",
         desc: "Data Science for Economists",
       },
-      {
-        course: "NEU 65",
-        desc: "Neuroscience, Film, and Philosophy",
-      },
     ],
   },
   {
@@ -86,11 +82,11 @@ export const COURSEWORK = [
     courses_descs: [
       {
         course: "CS 188", 
-        desc: "Introduction to Artificial Intelligence",
+        desc: "Artificial Intelligence",
       },
       {
         course: "CS 61C", 
-        desc: "Great Ideas of Computer Architecture (Machine Structures)",
+        desc: "Machine Structures",
       },
       {
         course: "CS 168", 
@@ -98,7 +94,7 @@ export const COURSEWORK = [
       },
       {
         course: "CS 198",
-        desc: "Directed Group Studies for Advanced Undergraduates - Full Stack Development",
+        desc: "Full Stack Development",
       },
       {
         course: "CYPLAN 98",
