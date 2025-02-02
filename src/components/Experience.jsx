@@ -24,7 +24,7 @@ const Experience = () => {
                 ))}
             </div>
             <a 
-                href="/src/constants/mei_cibulka_resume.pdf"
+                href="https://docs.google.com/document/d/1eX9GaVnFfRtjOCWfbMsuu8e6ou5Gw9IQVmPj773jkrQ/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-base hover:text-blue-400 transition duration-250 inline-flex items-center gap-1"
