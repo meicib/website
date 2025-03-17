@@ -1,8 +1,3 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
-
 export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a junior at UC Berkeley interested in EdTech, cybersecurity, full-stack development, and related fields! Currently, I'm working as a Software Engineer building full-stack apps at Berkeley startup Wyzly, and I've been a Course Tutor for several UCB CS classes, including 61A and 61B.";
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -32,13 +27,13 @@ export const PROJECTS = [
       "A personality quiz game made with HTML/CSS/JS.",
     technologies: ["HTML", "CSS", "JS"],
   },
-  {
-    title: "SRBC Status Website",
-    link: "https://srbc-status-1d51462a25c5.herokuapp.com/",
-    description:
-      "A fully functional website allowing admin to update the live capacity of the SR Badminton Club, and users to view the live capacity and when it was last updated.",
-    technologies: ["JS", "Express", "Node.js", "MongoDB", "HTML", "CSS"],
-  },
+  // {
+  //   title: "SRBC Status Website",
+  //   link: "https://srbc-status-1d51462a25c5.herokuapp.com/",
+  //   description:
+  //     "A fully functional website allowing admin to update the live capacity of the SR Badminton Club, and users to view the live capacity and when it was last updated.",
+  //   technologies: ["JS", "Express", "Node.js", "MongoDB", "HTML", "CSS"],
+  // },
   {
     title: "Language Classifier",
     link: null,
