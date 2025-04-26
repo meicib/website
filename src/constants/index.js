@@ -1,21 +1,19 @@
-export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a junior at UC Berkeley interested in EdTech, cybersecurity, full-stack development, and related fields! Currently, I'm working as a Software Engineer building full-stack apps at Berkeley startup Wyzly, and I've been a Course Tutor for several UCB CS classes, including 61A and 61B.";
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a junior at UC Berkeley interested in cryptography and cybersecurity, full-stack development, edtech, and related fields! Currently, I'm working as a Software Engineer building full-stack apps at Berkeley startup Wyzly, and I've been a Course Tutor for several UCB CS classes, including 61A and 61B.";
 
 export const EXPERIENCES = [
   {
     year: "Dec 2024 - Present",
     role: "Software Engineer",
     company: "Wyzly",
-    description: "Experience working at an early-stage startup, developed and maintained high-quality, modern web applications using TypeScript and React. Worked closely and communicated clearly with teammates, ensuring efficient design and functionality.",
-    technologies: ["React.js", "TypeScript", "MongoDB", "Tailwind CSS"],
+    description: "Experience developing and maintaining high-quality web applications at an early-stage startup. Worked closely and communicated clearly with teammates, product managers, and designers to ensure efficient design and functionality, and improve development best practices.",
+    technologies: ["Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind"],
   },
   {
     year: "Aug 2023 - Present",
     role: "Course Tutor",
     company: "University of California, Berkeley, EECS",
     description: "Official EECS tutor for CS61A and CS61B, taught students weekly, created original educational material to foster learning and problem solving skills, emphasized understanding rather than rote memorization.",
-    technologies: ["Java", "Python", "DSA", "OOP"],
+    technologies: ["Java", "Python", "Data Structures and Algorithms"],
   },
 ];
 
@@ -52,12 +50,29 @@ export const PROJECTS = [
 
 export const COURSEWORK = [
   {
-    year: "SPRING 2025",
+    year: "FALL 2025",
     courses_descs: [
       {
-        course: "CS 189", 
-        desc: "Machine Learning",
+        course: "CS 162", 
+        desc: "Operating Systems and Systems Programming",
       },
+      {
+        course: "CS 164", 
+        desc: "Programming Languages and Compilers",
+      },
+      {
+        course: "DATA C104",
+        desc: "Human Contexts and Ethics of Data",
+      },
+      {
+        course: "CHINESE 10A",
+        desc: "Intermediate Chinese",
+      },
+    ],
+  },
+  {
+    year: "SPRING 2025",
+    courses_descs: [
       {
         course: "CS 161", 
         desc: "Computer Security",
