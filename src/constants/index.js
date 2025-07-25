@@ -1,23 +1,37 @@
-export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a junior at UC Berkeley interested in cryptography and cybersecurity, full-stack development, edtech, and related fields! Currently, I'm working as a Software Engineer building full-stack apps at Berkeley startup Wyzly, and I've been a Course Tutor for several UCB CS classes, including 61A and 61B.";
+export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a senior at **UC Berkeley** interested in cryptography and cybersecurity, full-stack development, edtech, and related fields! Currently, I'm building as a **Software Engineering Intern** at **Tinuiti**, building client-facing tools for marketing analytics. I'm also developing full-stack apps from scratch at Berkeley startup **Wyzly**, and teaching students web-dev skills as part of **Cal Hacks'** DeCal, **Cubstart**.";
 
 export const EXPERIENCES = [
+    {
+    year: "Summer 2025",
+    role: "Software Engineering Intern",
+    company: "Tinuiti",
+    description: "Developed scalable **backend** features and serverless functions using **AWS Lambda** and **S3**, contributing to internal tools for marketing analytics.\n\nBuilt and styled **frontend** features using **React**, **TypeScript**, and **SCSS**, ensuring consistency with brand identity and design specifications.\n\n**Collaborated cross-functionally** with data engineers, product managers, and designers to deliver performant, **production-ready code** aligned with business needs and user goals.\n\nOptimized application performance and data flow using **PostgreSQL** and **Redshift**.",
+    technologies: ["AWS Lambda", "React", "TypeScript", "PostgreSQL", "AWS S3", "Redshift"],
+  },
   {
     year: "Dec 2024 - Present",
-    role: "Software Engineer",
+    role: "Full-Stack Engineer",
     company: "Wyzly",
-    description: "Experience developing and maintaining high-quality web applications at an early-stage startup. Worked closely and communicated clearly with teammates, product managers, and designers to ensure efficient design and functionality, and improve development best practices.",
+    description: "Developed and maintained high-quality web applications from scratch at an **early-stage startup**, using **TypeScript**, **React**, **Next.js**, and **Supabase**.\n\nWorked closely and communicated clearly with teammates during **stand-ups** and **sprint planning**, ensuring **efficient design** and functionality.",
     technologies: ["Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind"],
   },
   {
     year: "Aug 2023 - Present",
     role: "Course Tutor",
     company: "University of California, Berkeley, EECS",
-    description: "Official EECS tutor for CS61A and CS61B, taught students weekly, created original educational material to foster learning and problem solving skills, emphasized understanding rather than rote memorization.",
+    description: "Official EECS tutor for CS61A and CS61B.\n\nTaught students weekly, with **original educational material** to foster **learning** and **problem solving skills**, emphasized understanding rather than rote memorization.",
     technologies: ["Java", "Python", "Data Structures and Algorithms"],
   },
 ];
 
 export const PROJECTS = [
+    {
+    title: "Intro to React.js Workshop",
+    link: "https://drive.google.com/file/d/1cauEsOcHPtkHn9JtA7veR1UhIjeUBVWL/view?usp=sharing",
+    description:
+      "In collaboration with Cal Hacks, a pre-hackathon workshop to introduce React to new hackers. Covers React basics and includes hands-on exercises with a live coding demo.",
+    technologies: ["React.js", "Education", "Components", "Hooks", "Props", "State"],
+  },
   {
     title: "Jellyfish Personality Quiz",
     link: "https://meicib.github.io/jelly-quiz/",
@@ -25,26 +39,12 @@ export const PROJECTS = [
       "A personality quiz game made with HTML/CSS/JS.",
     technologies: ["HTML", "CSS", "JS"],
   },
-  // {
-  //   title: "SRBC Status Website",
-  //   link: "https://srbc-status-1d51462a25c5.herokuapp.com/",
-  //   description:
-  //     "A fully functional website allowing admin to update the live capacity of the SR Badminton Club, and users to view the live capacity and when it was last updated.",
-  //   technologies: ["JS", "Express", "Node.js", "MongoDB", "HTML", "CSS"],
-  // },
   {
     title: "Language Classifier",
     link: null,
     description:
       "A Recurrent Neural Network that processes a batch of input words by letter and returns the most likely language classification for each word, with 90% accuracy on test set.",
     technologies: ["Python", "Pytorch", "matplotlib", "numpy"],
-  },
-  {
-    title: "Portfolio Website",
-    link: "https://meicib.vercel.app/",
-    description:
-      "A fully responsive personal portfolio website showcasing projects, skills, coursework, and more information.",
-    technologies: ["React.js", "Tailwind CSS", "Node.js", "Vite"],
   },
 ];
 
