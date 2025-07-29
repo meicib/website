@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className="w-screen h-screen overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-300 selection:text-blue-900 flex justify-center">
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2 h-screen w-full max-w-screen-7xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 h-screen w-screen">
         {/* Left Container (No scroll) */}
         <div className="md:sticky md:top-0 col-span-1 w-full flex flex-col justify-center md:h-screen p-8 md:p-0 pb-0 md:px-16">
           <Profile />
@@ -63,16 +63,18 @@ const App = () => {
         {/* Right Container (Scrolls) */}
         <div
           ref={scrollContainerRef}
-          className="col-span-1 md:scroll-snap-type-y-mandatory relative md:overflow-y-scroll scroll-smooth px-8 md:p-0"
+          className="col-span-1 md:scroll-snap-type-y-mandatory relative md:overflow-y-scroll scroll-smooth px-8 md:p-0 w-full"
         >
-          <div id="experience" ref={(el) => (sectionRefs.current[0] = el)}>
-            <Experience />
-          </div>
-          <div id="projects" ref={(el) => (sectionRefs.current[1] = el)}>
-            <Projects />
-          </div>
-          <div id="coursework" ref={(el) => (sectionRefs.current[2] = el)}>
-            <Coursework />
+          <div className="max-w-screen-7xl mx-auto">
+            <div id="experience" ref={(el) => (sectionRefs.current[0] = el)}>
+              <Experience />
+            </div>
+            <div id="projects" ref={(el) => (sectionRefs.current[1] = el)}>
+              <Projects />
+            </div>
+            <div id="coursework" ref={(el) => (sectionRefs.current[2] = el)}>
+              <Coursework />
+            </div>
           </div>
         </div>
       </div>
