@@ -57,12 +57,16 @@ export const COURSEWORK = [
         desc: "Operating Systems and Systems Programming",
       },
       {
-        course: "CS 164", 
-        desc: "Programming Languages and Compilers",
+        course: "CYBER 289", 
+        desc: "Public Interest Cybersecurity",
       },
       {
-        course: "DATA C104",
-        desc: "Human Contexts and Ethics of Data",
+        course: "CS 198-750 (LECTURER)",
+        desc: "Full Stack Development",
+      },
+      {
+        course: "CYPLAN 110",
+        desc: "Urban Data Analytics",
       },
       {
         course: "CHINESE 10A",
