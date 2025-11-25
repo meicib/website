@@ -50,6 +50,31 @@ export const PROJECTS = [
 
 export const COURSEWORK = [
   {
+    year: "SPRING 2026",
+    courses_descs: [
+      {
+        course: "CS 152", 
+        desc: "Computer Architecture and Engineering",
+      },
+      {
+        course: "CS 164", 
+        desc: "Programming Languages and Compilers",
+      },
+      {
+        course: "CS 186",
+        desc: "Database Systems",
+      },
+      {
+        course: "CS 198-750 (LECTURER)",
+        desc: "Full Stack Development",
+      },
+      {
+        course: "CHINESE 10B",
+        desc: "Intermediate Chinese",
+      },
+    ],
+  },
+  {
     year: "FALL 2025",
     courses_descs: [
       {
