@@ -1,4 +1,4 @@
-export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a senior at **UC Berkeley** interested in cryptography and cybersecurity, full-stack development, edtech, and related fields! Currently, I'm building as a **Software Engineering Intern** at **Tinuiti**, building client-facing tools for marketing analytics. I'm also developing full-stack apps from scratch at Berkeley startup **Wyzly**, and teaching students web-dev skills as part of **Cal Hacks'** DeCal, **Cubstart**.";
+export const PROFILE_CONTENT = "Hi, I'm Mei 👋 I'm a senior at **UC Berkeley** interested in cryptography and cybersecurity, full-stack development, edtech, and related fields! I've worked as a **Software Engineering Intern** at **Tinuiti**, building client-facing tools for marketing analytics. I've also developed full-stack apps from scratch at Berkeley startup **Wyzly**, and taught students web-dev skills as part of **Cal Hacks'** DeCal, **Cubstart**.";
 
 export const EXPERIENCES = [
     {
@@ -16,28 +16,28 @@ export const EXPERIENCES = [
     technologies: ["Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind"],
   },
   {
-    year: "Aug 2023 - Present",
-    role: "Course Tutor",
+    year: "Aug 2025 - Present",
+    role: "Lead Course Facilitator",
     company: "University of California, Berkeley, EECS",
-    description: "Official EECS tutor for CS61A and CS61B.\n\nTaught students weekly, with **original educational material** to foster **learning** and **problem solving skills**, emphasized understanding rather than rote memorization.",
+    description: "As Lead Facilitator of Cal Hacks' student-led Cubstart course, taught full-stack web development to hundreds of students\n\nLead lectures weekly, with **original educational material** to foster **learning** and **problem solving skills**, emphasized understanding rather than rote memorization.\n\nTaught basic web-development skills and more advanced topics like React, database fundamentals, and the software development lifecycle",
     technologies: ["Java", "Python", "Data Structures and Algorithms"],
   },
 ];
 
 export const PROJECTS = [
     {
+    title: "SIEEEcure",
+    link: null,
+    description:
+      "In order to use computer architecture to secure communications in hardware with CPUs, worked in a team to design an AES-128-CTR encrypted 5-stage RISC-V CPU with a two-way set-associative LRU decryption cache.",
+    technologies: ["HTML", "CSS", "JS"],
+    },
+    {
     title: "Intro to React.js Workshop",
     link: "https://drive.google.com/file/d/1cauEsOcHPtkHn9JtA7veR1UhIjeUBVWL/view?usp=sharing",
     description:
       "In collaboration with Cal Hacks, a pre-hackathon workshop to introduce React to new hackers. Covers React basics and includes hands-on exercises with a live coding demo.",
     technologies: ["React.js", "Education", "Components", "Hooks", "Props", "State"],
-  },
-  {
-    title: "Jellyfish Personality Quiz",
-    link: "https://meicib.github.io/jelly-quiz/",
-    description:
-      "A personality quiz game made with HTML/CSS/JS.",
-    technologies: ["HTML", "CSS", "JS"],
   },
   {
     title: "Language Classifier",
