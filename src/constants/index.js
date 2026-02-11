@@ -30,14 +30,14 @@ export const PROJECTS = [
     link: null,
     description:
       "In order to use computer architecture to secure communications in hardware with CPUs, worked in a team to design an AES-128-CTR encrypted 5-stage RISC-V CPU with a two-way set-associative LRU decryption cache.",
-    technologies: ["HTML", "CSS", "JS"],
+    technologies: ["Verilog"],
     },
     {
-    title: "Intro to React.js Workshop",
+    title: "Intro to React Workshop",
     link: "https://drive.google.com/file/d/1cauEsOcHPtkHn9JtA7veR1UhIjeUBVWL/view?usp=sharing",
     description:
       "In collaboration with Cal Hacks, a pre-hackathon workshop to introduce React to new hackers. Covers React basics and includes hands-on exercises with a live coding demo.",
-    technologies: ["React.js", "Education", "Components", "Hooks", "Props", "State"],
+    technologies: ["React", "Education", "Components", "Hooks", "Props", "State"],
   },
   {
     title: "Language Classifier",
